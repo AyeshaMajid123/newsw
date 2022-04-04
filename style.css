@@ -1,0 +1,102 @@
+#home_label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    color:rgb(253, 243, 150);
+    font-weight: bold;
+    
+}
+#label_1{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 40px;
+}
+#home_para{
+    padding:20px;
+    border-style:solid;
+    border-color:rgb(112, 185, 253);
+    background-color:rgb(232, 241, 250);
+}
+#counsellors{
+    border-bottom:2px solid rgb(112, 255, 155);
+    border-left:2px solid rgb(112, 255, 155);
+    border-right:2px solid rgb(112, 255, 155);
+    background-color:rgb(222, 255, 213);
+    margin-bottom:20px;
+}
+#report{
+    padding:20px;
+    border-style:solid;
+    border-color:rgb(255, 118, 118);
+    background-color:rgb(252, 237, 237);
+}
+#home_paragraph{
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+#counsel_1 , #counsel_2 , #label_2, #label_3{
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+ 
+#counsel_2_img{
+    size: 60px;
+}
+.img-responsive{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+#counsel_label{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 40px;
+    background-color:rgb(222, 255, 213);
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-right:2px solid rgb(112, 255, 155);
+    border-left:2px solid rgb(112, 255, 155);
+    border-top:2px solid rgb(112, 255, 155);
+}
+#report_label{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 40px;
+}
+#contact iframe {
+    width: 100%;
+}
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
+    background-color: firebrick;
+}
+ .navbar-inverse .navbar-nav>li>a {
+    color: pink;
+}
+.navbar-inverse .navbar-brand {
+    color: pink;
+}  
+.modal-content
+{
+  margin-top: 100px;
+}
+.consdiv{
+    display:flex;
+    justify-content: center;
+    background-color: coral;
+}
+.cons-style{
+   cursor: pointer;
+   border-radius: 15px;
+   padding:5px;
+   border:2px solid rgb(112, 255, 155);
+}
+.tp1{
+    margin-top:10px;
+}

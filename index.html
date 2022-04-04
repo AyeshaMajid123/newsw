@@ -1,0 +1,197 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>E-UNITED</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body onload="check()">
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">E-UNITED</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#counsellors">Counsellors</a></li>
+            <li><a href="#report">Report Bullies</a></li>
+            <li><a href="#contact">Contact Us!</a></li>
+          </ul>
+        </div>
+    
+    </nav>
+    <center>
+    <section>
+        
+            <img id ="intro_image1" src="th (1).jpg">
+            <img id ="intro_image2" src="th (1).jpg">
+            <img id ="intro_image3" src="th (1).jpg">
+    
+   </section> 
+    <hr>
+    <div>
+    <span class="header" id ="home_label"  class="col-lg-7 col-md-7 col-sm-7 col-xs-12">E-UNITED
+    </span>
+    <img src ="logo2.png">
+    </div>
+    <div id ="home_para">
+     <h3 id ="label_1">We're in this together!</h3>
+     <br>    
+     <para id="home_paragraph">Being bullied makes kids feel different, powerless, unpopular and alone. It can be difficult to stand
+      up for yourself when you are being bullied, and sometimes it feels like you are all alone and have no idea
+      what to do! E-UNITED is a website that provides such students with support and counselling, as well as the ability
+      to report their bullies anonymously to their respective schools. E-UNITED also has counselling sessions as groups
+      so that children know that there are others facing similiar issues, and that they're never alone during tough times.
+     </para>
+    </div>
+     <hr>
+     <hr>
+     <button style="background-color:#d9534f; font-size:14px;color: white; padding-top:5px;padding-bottom: 5px;border-radius: 5px; margin-left: 10px; margin-right: 10px;border:1px solid transparent;">*PLEASE NOTE THAT THESE ARE FAKE CONTACT DETAILS, AND FAKE COUNSELLORS (I HAVEN'T LAUNCHED THIS APPLICATION YET)*</button>
+     <h1 id="counsel_label">Counsellors</h1>
+     <div class="consdiv" id="counsellors">
+        <div data-toggle="modal" data-target="#soniajaeger" class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <img src="Sonia Jaeger.jpg" class="img-responsive cons-style">
+            <p class="text-primary tp1"> Dr. Sonia Jaeger</p>
+        </div>
+        <div data-toggle="modal" data-target="#sasha" class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <img id="counsel_2_img" src="Sasha Hdvisten.jpg" class="img-responsive cons-style">
+            <p class="text-primary tp1"> Dr.Sasha Hvidsten</p>
+        </div>
+        <div data-toggle="modal" data-target="#kerry" class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+            <img id="counsel_3_img" src="kerry_west.jpg" class="img-responsive cons-style">
+            <p class="text-primary tp1"> Dr.Kerry West</p>
+        </div>
+        <!-- modals -->
+        <div class="modal fade" id="soniajaeger">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <br>
+                        <h4 class="modal-title"> Dr. Sonia Jaeger</h4>
+                    </div>
+    
+                    <div class="modal-body">
+                        <img src="Sonia Jaeger.jpg" class="img-responsive img_modal">
+                        <br> 
+                        <p id="counsel_1"class="p_modal">Dr.Sonia Jaeger is one of the most forward thinking mental health professionals there are. Not only is she very easy to talk to, but she also understands the value in finding the best techniques for the best situation.
+                            This quality of hers is what allows her to be able to give students solutions as to how they can stand up to their bullies.<br>
+                            <br>
+                            <a href="https://www.sonia-jaeger.com/en/"><b>Contact her!</b></a>
+    
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="sasha">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <br>
+                        <h4 class="modal-title"> Dr Sasha Hvidsten</h4>
+                    </div>
+    
+                    <div class="modal-body">
+                        <img id="counsel_2_img" src="Sasha Hdvisten.jpg" class="img-responsive img_modal">
+                        <br> 
+                        <p id="counsel_2"class="p_modal">Dr Sasha Hvidsten MBChB MRCPCH MRCPsych PGCert (LLM) helps young people with emotional and mental health problems. She provides effective and high quality care that is tailored to your needs!<br>
+                            <br>
+                            <a href="https://www.sashahvidsten.com/"><b>Contact her!</b></a>
+    
+                        </p>
+                    </div>
+                </div>
+            </div>
+     </div>
+     <div class="modal fade" id="kerry">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <br>
+                    <h4 class="modal-title"> Dr.Kerry West</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img id="counsel_2_img" src="kerry_west.jpg" class="img-responsive img_modal">
+                    <br> 
+                    <p id="counsel_2"class="p_modal">As a fully qualified doctor, with twenty years' experience,Dr.Kerry West has a deep understanding of medical and psychological issues in children. Fully qualified, she now combines the two skill sets to create a truly complementary therapy for children!<br>
+                        <br>
+                        <a href="https://www.hypnotherapy-directory.org.uk/hypnotherapists/kerry-west"><b>Contact her!</b></a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+     </div>
+    <hr>
+
+    <div id="report">
+        <center>
+        <h1 id = "report_label">Report your bullies!</h1>
+        <h2 id="label_2">This process is 100% anonymous!</h2>
+        <br>
+        <div id ="input_div">
+        <h4 id = "label_3">School's email address</h4>
+        <input id = "school_email_input" placeholder="Enter here!"></input>
+        <h4 id = "label_3">Bully's(bullies')full name</h4>
+        <input id = "bully_name_input" placeholder="Enter here!"></input>
+        <h4 id = "label_3">Bully's(bullies') class and section </h4>
+        <input id = "bully_class_input" placeholder="Enter here!"></input>
+        <br>
+        <button id="report_bully" onclick="sendEmail()">Report!</button>
+        <h5>*Please note that this part isnt functional. After discussing with my teacher I will figure out as to how I can send an email through Java Script.*</h5>
+
+        </center>
+        </div>
+        <hr>
+        <br>
+        <div id ="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+            <hr style="width:100%">
+            <img src="Logo.png
+            " class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>E-Connect</h3>
+    
+    
+            <div class="contact_1">
+    
+                <a href="mailto:my@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+                </a>
+    
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+                </a>
+            </div></div>
+
+
+        </center>
+        <script src="main.js"></script>
+        </body>
+    </html>
+    
